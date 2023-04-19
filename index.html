@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <form>
+      <input type="text" id="input" placeholder="0">
+      <br>
+      <input type="button" value="1" onclick="addToInput('1')">
+      <input type="button" value="2" onclick="addToInput('2')">
+      <input type="button" value="3" onclick="addToInput('3')">
+      <input type="button" value="+" onclick="addToInput('+')">
+      <br>
+      <input type="button" value="4" onclick="addToInput('4')">
+      <input type="button" value="5" onclick="addToInput('5')">
+      <input type="button" value="6" onclick="addToInput('6')">
+      <input type="button" value="-" onclick="addToInput('-')">
+      <br>
+      <input type="button" value="7" onclick="addToInput('7')">
+      <input type="button" value="8" onclick="addToInput('8')">
+      <input type="button" value="9" onclick="addToInput('9')">
+      <input type="button" value="*" onclick="addToInput('*')">
+      <br>
+      <input type="button" value="0" onclick="addToInput('0')">
+      <input type="button" value="." onclick="addToInput('.')">
+      <input type="button" value="=" onclick="calculate()">
+      <input type="button" value="/" onclick="addToInput('/')">
+      <br>
+      <input type="button" value="Clear" onclick="clearInput()">
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
